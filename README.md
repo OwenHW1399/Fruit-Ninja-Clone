@@ -1,6 +1,6 @@
 # Fruit-Ninja-Clone
 A simplified web version of fruit ninja game.\
-The player has three lives and unlimited amount of time to slice as many fruits as possible.\
+The player has three lives and an unlimited amount of time to slice as many fruits as possible.\
 Any time the player misses one fruit, the player would lose one life until no life is left.\
 This game is programmed by HTML, CSS, Javascript, jQuery.\
 Here is a video of the presentation of this app:

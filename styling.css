@@ -13,7 +13,7 @@ html{
     height: 100%;
     background: url(images/fruit-bg.jpg);
     background-repeat: no-repeat;
- background-size: 100% 100%;;
+    background-size: 100% 100%;;
 }
 
 #container{
@@ -41,24 +41,6 @@ html{
     -webkit-box-shadow: 0px 4px 0px #9da853;
 }
 
-#correct{
-    position: absolute;
-    left: 260px;
-    background-color: #42e252;
-    color: white;
-    padding: 11px;
-    display: none;
-}
-
-#wrong{
-    position: absolute;
-    left: 250px;
-    background-color: #de401a;
-    color: white;
-    padding: 11px;
-    display: none;
-}
-
 #fruitsContainer{
     width: 650px;
     height: 400px;
@@ -75,54 +57,16 @@ html{
     overflow: hidden;
 }
 
-/*#instruction{
-    width: 450px;
-    height: 50px;
-    background-color: #B481D9;
-    margin: 10px auto;
-    text-align: center;
-    line-height: 45px;
-    box-shadow: 0px 4px #8153a8;
-    -moz-box-shadow: 0px 4px #8153a8;
-    -webkit-box-shadow: 0px 4px #8153a8;
-}*/
 
-#choices{
-    width: 450px;
-    height: 100px;
-    margin: 5px auto;
+ #beginResetButton:hover{ 
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 4px #6b54d3;
+    -moz-box-shadow: 0px 4px #6b54d3;
+    -webkit-box-shadow: 0px 4px #6b54d3;
 }
 
-.box{
-    width: 85px;
-    height: 85px;
-    background-color: white;
-    float: left;
-    margin-right: 36px;
-    border-radius: 3px;
-    cursor: pointer;
-    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    line-height: 80px;
-    position: relative;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-}
-
-.box:hover, #startreset:hover{
-/*    background-color: #9C89F6;*/
-/*    color: white;*/
-/*    box-shadow: 0px 4px #6b54d3;*/
-/*    -moz-box-shadow: 0px 4px #6b54d3;*/
-/*    -webkit-box-shadow: 0px 4px #6b54d3;*/
-}
-
-.box:active, #startreset:active{
+#beginResetButton:active{
     background-color: #9C89F6;
     color: white;
     box-shadow: 0px 0px #6b54d3; 
@@ -130,11 +74,8 @@ html{
     -webkit-box-shadow: 0px 0px #6b54d3; 
     top: 4px;
 }
-#box4{
-    margin-right: 0;   
-}
 
-#startreset{
+#beginResetButton{
     width: 78px;
     padding: 10px;
     background-color: rgba(255,255,255,0.5);
@@ -153,7 +94,7 @@ html{
     -ms-transition: all 0.2s;   
 }
 
-#trialsLeft{
+#lifeBar{
     width: 80px;
     padding: 10px;
     position: absolute;
@@ -166,7 +107,7 @@ html{
     display: none;
 }
 
-#gameOver{
+#gameOverBox{
     height: 200px;
     width: 500px;
     background: linear-gradient(#F3CA6B, #F3706C);

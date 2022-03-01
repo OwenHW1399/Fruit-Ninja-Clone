@@ -1,0 +1,43 @@
+  
+#flexBoxContainer{
+    display : flex;
+    /* https://css-tricks.com/perfect-full-page-background-image/ */
+    background: url(../images/fruit_background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-flow:column;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #GameSection{
+      height: 800px;
+  }
+  #buttonSection{
+    /* https://stackoverflow.com/a/31078418 */
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    height: 200px;
+  }
+  #buttonSection div{
+      display: inline-block;
+      border: 1px solid black;
+      background-color: bisque;
+      margin: 1rem;
+      padding: 2rem 2rem;
+  }
+
+  #startResetButton:hover{
+      background-color: brown;
+  }
+      
